@@ -1,0 +1,12 @@
+{
+  "environment": "prod",
+  "projectName": "internalProject",
+  "reportName": "GembookTestReport",
+  "glueCode": "com.qa.Gembook.StepDefinitions",
+  "feature": "src/main/resources/features",
+  "prod": {
+    "browserName": "chrome",
+    "launchUrl": "https://gembook.geminisolutions.com/",
+    "browserTimeout": 100
+  }
+}
